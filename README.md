@@ -14,7 +14,7 @@ requires [Node.js](https://nodejs.org/) to run.
 Install the dependencies and devDependencies and start the server.
 
 ```sh
-cd ./api
+$ cd ./api
 npm i
 ```
 
@@ -27,13 +27,13 @@ set database name, username and password in ./api/config/config.json and ./api/d
 Prepare database
 ```
 migration:
-npx sequelize-cli db:migrate
+$ npx sequelize-cli db:migrate
 
 seed demo user:
-npx sequelize-cli db:seed:all
+$ npx sequelize-cli db:seed:all
 data user included in ./api/seeders/*-demo-user.js
 ```
 Run server
 ```
-npm start
+$ npm start
 ```
