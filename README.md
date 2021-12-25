@@ -4,7 +4,7 @@
 
 - login = req body {email:'',password:''} POST http://127.0.0.1:4000/api/v1/login
 - checkin/out = req body {type:'IN'/'OUT',time:'yyyy-mm-dd hh:mm:ss'} POST http://127.0.0.1:4000/api/v1/presence
-- approval = POST http://127.0.0.1:4000/api/v1/approval/:id
+- approval = POST http://127.0.0.1:4000/api/v1/approval/:id 'id' from table epresences
 - get data = GET http://127.0.0.1:4000/api/v1/presence
 
 ## Installation
